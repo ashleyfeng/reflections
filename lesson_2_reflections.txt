@@ -1,13 +1,29 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+  It creates a .git repository, which stores metadata (the history of the files)
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+  The staging area is the intermediate place, a step before you create an actual commit.
+  It allows you to check the changes you made before committing them.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  Before making a commit, you can use git diff --staged to see the difference
+  between the staging area and the most recent commit, so you can check what changes
+  you are about to commit. This way, you can make sure that you are making a commit
+  that is logical.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+  It keeps it organized because each branch has a specific purpose to it - for
+  example, to make an easier version of the game, you would create a branch called
+  easy mode, and it differentiates it from the main branch, which is just the main
+  version of the game. Branches help if two people are working on a project and each
+  are doing a different part separately.
 
 How do the diagrams help you visualize the branch structure?
 
