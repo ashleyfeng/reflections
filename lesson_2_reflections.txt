@@ -27,6 +27,10 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+  The diagrams show the path of commits made, and anywhere where a new branch is
+  made. That would look like it "branched off". Then it shows the trail of commits
+  made in that branch.
+  
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
