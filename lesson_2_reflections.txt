@@ -30,9 +30,13 @@ How do the diagrams help you visualize the branch structure?
   The diagrams show the path of commits made, and anywhere where a new branch is
   made. That would look like it "branched off". Then it shows the trail of commits
   made in that branch.
-  
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+
+  You basically make it so all the commits are on a single branch - you combine the
+  commits made in each branch so that all the changes can be seen together. We represents
+  it like that because each separate branch is combined.
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
