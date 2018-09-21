@@ -4,11 +4,13 @@ local?
     I would create a remote repository so that I could share my repository with other people on Github. What it does is that
     you can pull and push changes to or from the remote repository (you can upload the changes you've made to your local
     repository so that the public can see it, and you can also pull changes made in Github to your local repository)
-    
+
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    The same reason why Git allows you to make commits manually - so you can
+    logically choose whether you want your local repository to be updated by
+    the remote repository.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
