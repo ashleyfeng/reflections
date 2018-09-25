@@ -41,4 +41,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You would want to make changes in a separate branch when you are not sure
+    if the change could break the master branch or not, and you want to check
+    it with another collaborator on Github.
